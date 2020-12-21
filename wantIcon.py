@@ -1,11 +1,3 @@
-'''Let You Download icon from: https://icon-icons.com/
-    Ways to Download:
-    1.Url-> https://icon-icons.com/pack/World-Cup-2014-Country-Flags-Icons/127
-    copy -> World-Cup-2014-Country-Flags-Icons/127
-    run the program 
-
-    it only work on https://icon-icons.com site so don't go anywhere else '''
-
 import requests
 import pprint
 import threading
@@ -80,3 +72,4 @@ for link in imageLinks:
 for thread in listThread:
     thread.join()
 #----------------------------------
+
